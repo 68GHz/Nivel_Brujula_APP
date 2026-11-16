@@ -1,0 +1,34 @@
+# Secrets and Credentials (CRITICAL - DO NOT COMMIT)
+*.env
+*.env.*
+*.pem
+*.key
+*firebase-adminsdk*.json
+*.keystore
+*.jks
+
+# Dependencies
+node_modules/
+.pnp
+.pnp.js
+
+# Testing
+coverage/
+
+# Next.js build output
+.next/
+out/
+
+# Expo build output
+.expo/
+dist/
+web-build/
+
+# Logs
+npm-debug.log*
+yarn-debug.log*
+yarn-error.log*
+
+# OS Files
+.DS_Store
+Thumbs.db
